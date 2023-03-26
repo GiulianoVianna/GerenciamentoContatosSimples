@@ -2,7 +2,7 @@
 Obs: Sem banco de dados
 
 ## Definição da aplicação
-Exemplo de uma página HTML simples que inclui um formulário e uma tabela. A página permite ao usuário inserir informações (nome, celular e e-mail) e, em seguida, exibir essas informações na tabela.
+Exemplo de uma página HTML simples que inclui um formulário e uma tabela. A página permite ao usuário inserir informações (nome, celular e e-mail), em seguida, exibir essas informações na tabela.
 
 ## Imagem da Aplicação
 https://giulianovianna.github.io/GerenciamentoContatosSimples/
