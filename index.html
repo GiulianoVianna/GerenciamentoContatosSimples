@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário e Tabela</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gereciador de Contatos Simples</h1>
+        <h5>Obs: Sem Bando de Dados</h5>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Nome" pattern="[A-Z\s]+" title="Digite apenas letras maiúsculas sem acento." required>
+            <input type="tel" id="phone" placeholder="Celular" required>
+            <input type="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Digite um e-mail válido. Somente letras minúsculas." required>
+            <button type="button" id="add-btn">Adicionar</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Celular</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
